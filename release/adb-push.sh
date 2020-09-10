@@ -2,6 +2,7 @@
 
 #!/bin/bash -e
 
+mkdir /data/redtea
 rm -rf /etc/rc5.d/S99start_redtea_app
 rm -rf /etc/init.d/start_redtea_app
 rm -rf /etc/init.d/start_redtea_keep
