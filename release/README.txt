@@ -2,9 +2,9 @@
 
 Release information
 Author            : bob
-Time              : 2020-09-09 16:31:54
+Time              : 2020-09-10 10:34:20
 Version           : v0.0.1.0
-Target            : linux-euicc-general-9x07-debug
+Target            : linux-euicc-general-9x07-release
 Environment       : prod
 Branch            : linux-redteaready-7xNetworks
 Git Hash          : 1c232537f64aa4691a9ab784b1ffc94544188401
@@ -17,8 +17,8 @@ ubi_flash_targets : A flash ubi image, which can be downloaded into terminal by 
 ubi_ota_targets   : A OTA ubi image, which can be uploaded to OTA server; It's name looks like agent/monitor/libcomm.so which accord with OTA file name requirement 
 
 Manual installation tips
-1.Copy linux-euicc-general-9x07-debug-prod-targets-v0.0.1.0-open-20200909.zip into your debug computer;
-2.Unzip linux-euicc-general-9x07-debug-prod-targets-v0.0.1.0-open-20200909.zip with cmd [ unzip linux-euicc-general-9x07-debug-prod-targets-v0.0.1.0-open-20200909.zip ];
+1.Copy linux-euicc-general-9x07-release-prod-targets-v0.0.1.0-open-20200910.zip into your debug computer;
+2.Unzip linux-euicc-general-9x07-release-prod-targets-v0.0.1.0-open-20200910.zip with cmd [ unzip linux-euicc-general-9x07-release-prod-targets-v0.0.1.0-open-20200910.zip ];
 3.Read doc in ./release/README.txt which you are reading;
 4.Connect your target device with USB adb;
 5.Enter ./release with cmd [ cd ./release ];
